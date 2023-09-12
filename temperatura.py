@@ -1,4 +1,4 @@
-def celsisus_a_fahrenheit(celsius):
+def celsius_a_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 
 def celsius_a_kelvin(celsius):
@@ -6,5 +6,5 @@ def celsius_a_kelvin(celsius):
 
 if __name__=="__main__":
     celsius =25
-    fahrenheit = celsisus_a_fahrenheit(celsius)
+    fahrenheit = celsius_a_fahrenheit(celsius)
     print(f"{celsius} grados celsius son equivalentes a {fahrenheit} grados fahrenheit")
